@@ -20,7 +20,7 @@ export default function Searchbar({ onSubmit }) {
 
   const showSearchQueryAbsence = () => {
     toast.warn(
-      'No, no, no! God, no! To search for pictures you need to specify what you are looking for.'
+      'No! To search for pictures you need to specify what you are looking for.'
     );
   };
 
