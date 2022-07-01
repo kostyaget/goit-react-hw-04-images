@@ -15,7 +15,7 @@ export default function Searchbar({ onSubmit }) {
   const [searchQuery, setSearchQuery] = useState('');
 
   const formReset = () => {
-    setSearchQuery('');
+    // setSearchQuery('');
   };
 
   const showSearchQueryAbsence = () => {
